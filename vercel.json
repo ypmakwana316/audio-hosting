@@ -1,11 +1,6 @@
 {
   "version": 2,
   "public": true,
-  "builds": [],
-  "routes": [
-    {
-      "src": "/audio/(.*)",
-      "dest": "/public/audio/$1"
-    }
-  ]
+  "cleanUrls": true,
+  "trailingSlash": false
 }
